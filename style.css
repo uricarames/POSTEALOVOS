@@ -32,3 +32,11 @@ footer {
     padding: 15px;
     background-color: #1e1e1e;
 }
+
+.mi-imagen {
+    width: 100%;         /* Se adapta al ancho disponible */
+    height: auto;        /* Mantiene proporción para no deformarse */
+    max-width: 600px;    /* Tamaño máximo en píxeles */
+    display: block;      /* Evita espacios debajo de la imagen */
+    margin: 20px auto;   /* La centra horizontalmente con margen arriba y abajo */
+}
