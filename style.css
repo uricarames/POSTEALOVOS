@@ -1,24 +1,36 @@
-
+/* Estilo base */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     background-color: #121212;
     color: #f0f0f0;
 }
+
+/* Encabezado */
 header {
     background-color: #1e1e1e;
     padding: 20px;
     text-align: center;
 }
+
+/* Secciones */
 .combo, .galeria, .faq, .contacto {
     padding: 20px;
     text-align: center;
 }
+
+/* Imagen principal */
 .galeria .imagenes img {
-    width: 200px;
-    margin: 10px;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
     border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
+
+/* Botón de WhatsApp */
 .boton {
     display: inline-block;
     padding: 10px 20px;
@@ -26,17 +38,16 @@ header {
     color: white;
     text-decoration: none;
     border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
+.boton:hover {
+    background-color: #00b347;
+}
+
+/* Footer */
 footer {
     text-align: center;
     padding: 15px;
     background-color: #1e1e1e;
 }
 
-.mi-imagen {
-    width: 100%;         /* Se adapta al ancho disponible */
-    height: auto;        /* Mantiene proporción para no deformarse */
-    max-width: 600px;    /* Tamaño máximo en píxeles */
-    display: block;      /* Evita espacios debajo de la imagen */
-    margin: 20px auto;   /* La centra horizontalmente con margen arriba y abajo */
-}
