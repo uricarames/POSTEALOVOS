@@ -20,15 +20,21 @@ header {
 }
 
 /* Imagen principal */
-.galeria .imagenes img {
-    width: 100%;
-    max-width: 600px;
-    height: auto;
-    display: block;
-    margin: 20px auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+.galeria .imagenes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
+
+.galeria .imagenes img {
+    width: 90vw;           /* 90% del ancho de la pantalla */
+    max-width: 800px;      /* Hasta 800px, si la pantalla es grande */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
 
 /* Botón de WhatsApp */
 .boton {
