@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 
-    // Validación del formulario de contacto (si tuviera uno)
+    // Validación del formulario de contacto
     const formulario = document.querySelector("#formulario-contacto");
     if (formulario) {
         formulario.addEventListener("submit", function(e) {
@@ -36,8 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 alert("Por favor, completa todos los campos.");
             } else {
                 alert("¡Formulario enviado correctamente!");
-                // Aquí podrías hacer una solicitud para enviar el formulario realmente
-                formulario.reset();
+                formulario.reset(); // Limpia el formulario después del envío
             }
         });
     }
