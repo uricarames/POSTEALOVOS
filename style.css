@@ -1,4 +1,3 @@
-/* Estilo base */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,14 +5,12 @@ body {
     color: #f0f0f0;
 }
 
-/* Encabezado */
 header {
     background-color: #1e1e1e;
     padding: 20px;
     text-align: center;
 }
 
-/* Secciones */
 .combo, .galeria, .faq, .contacto {
     padding: 20px;
     text-align: center;
@@ -27,16 +24,13 @@ header {
 }
 
 .galeria .imagenes img {
-    width: 90vw;           /* 90% del ancho de pantalla */
-    max-width: 800px;      /* Hasta 800px como máximo */
+    width: 90vw;
+    max-width: 800px;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
-
-
-/* Botón de WhatsApp */
 .boton {
     display: inline-block;
     padding: 10px 20px;
@@ -44,16 +38,10 @@ header {
     color: white;
     text-decoration: none;
     border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-.boton:hover {
-    background-color: #00b347;
 }
 
-/* Footer */
 footer {
     text-align: center;
     padding: 15px;
     background-color: #1e1e1e;
 }
-
