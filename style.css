@@ -19,7 +19,6 @@ header {
     text-align: center;
 }
 
-/* Imagen principal */
 .galeria .imagenes {
     display: flex;
     justify-content: center;
@@ -28,12 +27,13 @@ header {
 }
 
 .galeria .imagenes img {
-    width: 90vw;           /* 90% del ancho de la pantalla */
-    max-width: 800px;      /* Hasta 800px, si la pantalla es grande */
+    width: 90vw;           /* 90% del ancho de pantalla */
+    max-width: 800px;      /* Hasta 800px como máximo */
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
+
 
 
 /* Botón de WhatsApp */
